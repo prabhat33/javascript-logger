@@ -1,0 +1,34 @@
+{
+  "name": "javascript-logger",
+  "version": "2.0.0",
+  "description": "A javascript Logger library for all browsers and Node js .It can be used in both ES5 and ES6",
+  "main": "build/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "babel src -d build",
+    "start": "node src/app.js"
+  },
+  "dependencies": {
+    "typescript-logging": "^0.6.3"
+  },
+  "keywords": [
+    "logger",
+    "javascript",
+    "logger",
+    "node",
+    "js",
+    "logger",
+    "es6",
+    "logger",
+    "es5",
+    "logger",
+    "typescript",
+    "logger"
+  ],
+  "author": "Prabhat Giri",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-cli": "^6.26.0",
+    "babel-preset-env": "^1.7.0"
+  }
+}
