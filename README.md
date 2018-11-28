@@ -1,6 +1,6 @@
 # Javascript Logger
 
-Javascript Logger library that works with both ES5 and ES6
+Javascript Logger Nodejs package that works with both ES5 and ES6
 
 ### Prerequisites
 
