@@ -4,7 +4,7 @@ Javascript Logger Nodejs package that works with both ES5 and ES6
 
 ### Prerequisites
 
-To install and run Storefront on your local system , you will need the following softwares pre-installed on your system
+To install and run Logger on your local system , you will need the following softwares pre-installed on your system
 
 1. Node js
 
@@ -52,7 +52,7 @@ import {LoggerInstance} from 'typescript-and-javascript-logger';
 
 ## Author
 
-** PRABHAT GIRI (giri.prabhat33@gmail.com)
+* PRABHAT GIRI (giri.prabhat33@gmail.com)
 
 ## License
 

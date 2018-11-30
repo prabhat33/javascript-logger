@@ -1,6 +1,6 @@
 {
   "name": "typescript-and-javascript-logger",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "A javascript Logger library for all browsers and Node js .It can be used in both ES5 and ES6",
   "main": "build/index.js",
   "scripts": {
