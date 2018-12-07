@@ -14,15 +14,34 @@ var javascriptLogger = new _typescriptLogging.Category("JavascriptLogger");
 var AppLogger = {};
 
 AppLogger.info = function (message) {
-    javascriptLogger.info(message);
+    try{
+        javascriptLogger.info(message);
+    }
+    catch (err){
+        console.info(message);
+    }
+
 };
 
 AppLogger.debug = function (message) {
-    javascriptLogger.debug(message);
+
+    try{
+        javascriptLogger.debug(message);
+    }
+    catch (err){
+        console.debug(message);
+    }
+
 };
 
 AppLogger.error = function (message) {
-    javascriptLogger.error(message);
+
+    try{
+        javascriptLogger.error(message);
+    }
+    catch (err){
+        console.error(message);
+    }
 };
 
 //module.exports = AppLogger;
